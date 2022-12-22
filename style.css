@@ -1,0 +1,29 @@
+/* stylelint-disable no-missing-end-of-source-newline */
+:root {
+  --dark-gray: #3e3c3c;
+  --primary-color: #f55800;
+}
+
+.bg-dark-gray {
+  background-color: var(--dark-gray);
+}
+
+.bg-primary-orange {
+  background-color: var(--primary-color);
+}
+
+.text-primary-orange {
+  color: var(--primary-color);
+}
+
+.nav-pills .nav-link {
+  color: #fff;
+  text-align: center;
+}
+
+.nav-pills .nav-link.active {
+  background-color: white;
+  color: #000;
+  font-weight: bolder;
+  padding: 0.5rem;
+}
